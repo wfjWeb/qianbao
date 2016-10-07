@@ -1,0 +1,194 @@
+/*head*/
+#head{
+	width: 100%;
+	height: 100px;
+	border-bottom: 3px solid #fc472e;
+}
+#head .head{
+	
+	width: 1200px;
+	height: 100px;
+	margin: 0 auto;
+}
+.head .logo{
+	width: 220px;
+	height: 90px;
+	margin-top: 5px;
+	float: left;
+}
+.nav{
+	float: left;
+	height: 40px;
+	padding-top: 30px;
+}
+.nav ul{
+	width: 786px;
+	height: 40px;
+}
+.nav ul li{
+	line-height: 20px;
+    position: relative;
+    float: left;
+    height: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.nav ul li a{
+	font-size: 16px;
+    line-height: 20px;
+    display: block;
+    height: 20px;
+    margin-right: 5px;
+    margin-left: 5px;
+    padding-right: 20px;
+    padding-left: 20px;
+    color: #222;
+}
+.nav ul li a:hover{
+	color: #FC472E;
+}
+/*banner*/
+#banner{
+	/*position: relative;
+	top: 0;*/
+	width: 100%;
+	height: 580px;
+	border-top: 1px solid #F8514D;
+}
+.banner{
+	
+	width: 100%;
+	height: 580px;
+}
+
+.box{
+	width: 1000px;
+	height: 580px;
+	position: relative;
+	margin: 0 auto;
+}
+.reg_box{
+	width: 325px;
+	height: 520px;
+	padding: 20px 15px;
+	position: absolute;
+	background: white;
+	right: 0;
+	top: 20px;
+}
+.reg_top{
+	padding: 15px 10px;
+    height: 38px;
+    line-height: 30px;
+}
+.reg_top h2{
+	float: left;
+	width: 194px;
+	height: 30px;
+	background: url(../img/reg.png);
+}
+.reg_top a{
+	
+	width: 60px;
+	height: 30px;
+	color: #e77d00;
+}
+.reg_foot{
+	padding: 18px 30px 12px;
+    width: 255px;
+    border-top: 1px dashed #e4dcd0;
+}
+.reg_foot em{
+	color: green;
+	cursor: pointer;
+	font-size: 14px;
+	line-height: 38px;
+	text-align: center;
+	float: right;
+	width: 100px;
+	height: 38px;
+	background: #ccc;
+}
+.reg_foot p{
+	font-size: 12px;
+	height: 16px;
+	line-height: 16px;
+}
+
+.reg_foot ul li{
+	width: 100%;
+    padding: 8px 0;
+    float: left;
+}
+#txt{
+	width: 235px;
+    height: 14px;
+    line-height: 14px;
+    padding: 12px 9px;
+    border: 1px solid #dedede;
+}
+#pwd,#pwd2{
+	width: 235px;
+    height: 14px;
+    line-height: 14px;
+    padding: 12px 9px;
+    border: 1px solid #dedede;
+}
+.form .li2 ul{
+	width: 100%;
+	height: 20px;
+}
+.form .li2  ul li{
+	border-right: 1px solid #fff;
+	padding: 0;
+	font-size: 12px;
+	float: left;
+	width: 84px;
+	height: 20px;
+	line-height: 20px;
+	text-align: center;
+	background: #CCCCCC;
+}
+#txt2,#txt3{
+	float: left;
+	width: 120px;
+    height: 14px;
+    line-height: 14px;
+    padding: 12px 9px;
+    border: 1px solid #dedede;
+    background: transparent;
+}
+.form ul .li6 a{
+	color: #e77d00;
+}
+
+#btn{
+	display: inline-block;
+    width: 100%;
+    margin: 0 auto;
+    height: 40px;
+    line-height: 40px;
+    color: #fff;
+    font-size: 14px;
+    background: #d03a24;
+    border: 0;
+    cursor: pointer;
+    font-family: "微软雅黑";
+}
+.sns{	
+	padding-top: 10px;
+	width: 500px;
+	height: 20px;
+    line-height: 20px;
+    overflow: hidden;  
+}
+.sns a{
+	float: left;
+    padding-right: 10px;
+    text-decoration: none;
+    color: #888;
+}
+.sns img{
+	vertical-align: middle;
+    margin-right: 5px;
+}
